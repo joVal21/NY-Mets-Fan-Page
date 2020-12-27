@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family:"lato", arial,  sans-serif;
+    font-size: 20px;
+
+
+}
+
+header {
+    
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(/resources/images/Pete\ Alonso\ Swing.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+/*we will make font size relative to the HTML font by using percentages*/
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+span {
+    color: #2980b9;
+    font-weight: 700;
+    
+}
+
+.mets-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.logo{
+    background-image: url(/resources/images/Mets\ Logo.png);
+    max-width: 150px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: white;
+    transition: background-color 0.4s, border 0.4s, color 0.4s;
+    
+    
+}
+
+
+
+.btn-full {
+    background-color: #d35400;
+    color: white;
+}
+
+.btn-ghost {
+    border: 1px solid #d35400;
+    color: #e67e22;
+}
+
+
+
+.btn:hover {
+    background-color: #e67e22;
+}
+
