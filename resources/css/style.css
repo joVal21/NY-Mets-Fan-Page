@@ -1,3 +1,8 @@
+/*-------------------------*/
+/* BASE STYLING */
+/*-------------------------*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +17,10 @@ html {
 
 }
 
+/*-------------------------*/
+/* HEADER */
+/*-------------------------*/
+
 header {
     
     background-image:  linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(/resources/images/Pete\ Alonso\ Swing.jpg);
@@ -21,7 +30,7 @@ header {
 }
 
 
-/*we will make font size relative to the HTML font by using percentages*/
+
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
@@ -48,14 +57,9 @@ span {
 
 }
 
-.logo{
-    background-image: url(/resources/images/Mets\ Logo.png);
-    max-width: 150px;
-    position: absolute;
-    z-index: 1;
-}
 
 
+/*---- BUTTONS ----*/
 
 .btn:link,
 .btn:visited {
@@ -67,10 +71,7 @@ span {
     color: white;
     transition: background-color 0.4s, border 0.4s, color 0.4s;
     
-    
 }
-
-
 
 .btn-full {
     background-color: #d35400;
@@ -82,9 +83,56 @@ span {
     color: #e67e22;
 }
 
-
-
 .btn:hover {
     background-color: #e67e22;
 }
 
+/*-------------------------*/
+/* NAVIGATION */
+/*-------------------------*/
+
+.logo {
+    height: 125px;
+    width: auto;
+    float: left;
+    margin-top: 25px;
+    padding-left: 325px;
+       
+}
+
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    padding-right: 250px;
+    
+}
+
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+    padding-top: 60px;
+    
+}
+
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0px;
+    color: white;
+    font-size: 90%;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom .4s;
+       
+}
+
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #d35400;
+    
+}
