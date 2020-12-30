@@ -147,19 +147,28 @@ span {
 
 
 /*-------------------------*/
-/* Meet The Players */
+/* Meet The Stars */
 /*-------------------------*/
 
 .star-mets {
     margin: 0 auto;
     text-align: center;
-    padding-top: 55PX;
-    padding-left: 100px;
+    padding-top: 125PX;
+    padding-left: 185px;
+    background-image: linear-gradient(rgba(243, 140, 43, 0.418), rgba(0, 56, 109, 0.863)), url("/resources/images/Citi\ Field.jpg ");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
 }
 
 .star-mets h2 {
     padding-right: 120px;
     padding-bottom: 30px;
+    font-size: 200%;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
 }
 
 .star-mets img {
@@ -167,5 +176,34 @@ span {
     width: 100%;
     height: auto;
     border-radius: 25%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 25px;
 }
 
+.star-mets 
+h2,
+h3,
+p {
+    
+    color: white;
+}
+
+.star-mets p {
+    padding: 5px 0;
+    font-weight: 400;
+}
+
+.star-mets h3 {
+    font-size: 150%;
+    color: #cfd9dd ;
+}
+.player:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    box-shadow: 0 0 20px rgba(209, 202, 202, 0.5);
+    
+}
+
+.quote {
+    color: white;
+}
