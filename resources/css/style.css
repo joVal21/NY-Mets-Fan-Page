@@ -153,7 +153,13 @@ span {
 .star-mets {
     margin: 0 auto;
     text-align: center;
-    margin-left: ;
+    padding-top: 55PX;
+    padding-left: 100px;
+}
+
+.star-mets h2 {
+    padding-right: 120px;
+    padding-bottom: 30px;
 }
 
 .star-mets img {
