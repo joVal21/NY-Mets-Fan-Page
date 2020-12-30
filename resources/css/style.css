@@ -69,19 +69,23 @@ span {
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
-    color: white;
     transition: background-color 0.4s, border 0.4s, color 0.4s;
     
 }
 
 .btn-full {
-    background-color: #d35400;
+    background-color: #9b3e00;
     color: white;
 }
 
 .btn-ghost {
     border: 1px solid #d35400;
     color: #e67e22;
+}
+
+.btn-ghost:hover {
+    border: 1px solid #d35400;
+    color: white;
 }
 
 .btn:hover {
