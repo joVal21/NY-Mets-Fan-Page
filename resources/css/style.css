@@ -54,6 +54,7 @@ span {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 
 }
 
@@ -135,4 +136,10 @@ span {
 .main-nav li a:active {
     border-bottom: 2px solid #d35400;
     
+}
+
+
+.star-mets {
+    margin: 0 auto;
+    text-align: center;
 }
