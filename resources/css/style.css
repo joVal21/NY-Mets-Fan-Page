@@ -145,14 +145,12 @@ span {
 
 
 
-
 /*-------------------------*/
 /* Meet The Stars */
 /*-------------------------*/
 
 .star-mets {
     margin: 0 auto;
-    text-align: center;
     padding-top: 125PX;
     padding-left: 185px;
     background-image: linear-gradient(rgba(243, 140, 43, 0.418), rgba(0, 56, 109, 0.863)), url("/resources/images/Citi\ Field.jpg ");
@@ -165,6 +163,7 @@ span {
 .star-mets h2 {
     padding-right: 120px;
     padding-bottom: 30px;
+    margin-left: 35%;
     font-size: 200%;
     font-weight: 400;
     text-transform: uppercase;
@@ -185,8 +184,18 @@ span {
 h2,
 h3,
 p {
-    
     color: white;
+}
+
+h2:after {
+    content: "";
+    background-color: #d35400;
+    display: block;
+    height: 2px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 10%;
 }
 
 .star-mets p {
@@ -207,5 +216,8 @@ p {
 
 .quote {
     color: white;
+    line-height: 30px;
+    font-size: 80%;
+    font-weight: 400;
    
 }
