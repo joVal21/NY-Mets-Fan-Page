@@ -158,7 +158,8 @@ span {
     background-image: linear-gradient(rgba(243, 140, 43, 0.418), rgba(0, 56, 109, 0.863)), url("/resources/images/Citi\ Field.jpg ");
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 100vh;
+
 }
 
 .star-mets h2 {
@@ -195,7 +196,7 @@ p {
 
 .star-mets h3 {
     font-size: 150%;
-    color: #cfd9dd ;
+    color: #cfd9dd;
 }
 .player:hover {
     transform: scale(1.1);
@@ -206,4 +207,5 @@ p {
 
 .quote {
     color: white;
+   
 }
