@@ -219,7 +219,7 @@ h2:after {
     color: #cfd9dd;
 }
 .player:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: .5s;
     box-shadow: 0 0 20px rgba(209, 202, 202, 0.5);
     
