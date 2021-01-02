@@ -18,7 +18,7 @@ html {
 }
 
 /*-------------------------*/
-/* HEADER */
+/* HEADER SECTION*/
 /*-------------------------*/
 
 header {
@@ -146,7 +146,7 @@ span {
 
 
 /*-------------------------*/
-/* Meet The Stars */
+/* MEET THE STARS SECTION */
 /*-------------------------*/
 
 .star-mets {
@@ -173,18 +173,29 @@ span {
 
 .star-mets img {
     display: relative;
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 25%;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
     margin-bottom: 25px;
+    margin-left: 35px;
+    margin-top: 25px;
 }
+
 
 .star-mets 
 h2,
 h3,
 p {
     color: white;
+    
+}
+
+.star-mets 
+h3,
+p {
+    text-align: center;
+
 }
 
 h2:after {
