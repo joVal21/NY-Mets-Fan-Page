@@ -150,13 +150,13 @@ span {
 /*-------------------------*/
 
 .star-mets {
-    margin: 0 auto;
-    padding-top: 125PX;
+    margin: 50px auto;
+    padding-top: 80PX;
     padding-left: 185px;
     background-image: linear-gradient(rgba(243, 140, 43, 0.418), rgba(0, 56, 109, 0.863)), url("/resources/images/Citi\ Field.jpg ");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 80vh;
 
 }
 
